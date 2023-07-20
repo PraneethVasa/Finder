@@ -33,6 +33,7 @@ if mt:
     slt.title("Sorry, the app (Laptops_EDA) is currently under maintenance. Please try again Later😶‍🌫️")
 else:
     #Designing Main Page
+        data = pd.read_csv("Laptop1.csv")
         slt.title("LAPTOP FINDER")
         slt.write("Confused about which laptop to buy? Just feed in your requirements to our Laptop Finder and you will get best recommendations according to your specifications")
         if slt.button("Get Started",key = '100'):
