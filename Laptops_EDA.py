@@ -9,7 +9,7 @@ from PIL import Image
 #Setting Page Configuration
 slt.set_page_config(page_title = "Laptops - EDA",page_icon="icon.png",layout="wide")
 slt.title("@PraneethVasa")
-slt.sidebar.title("Project Description
+slt.sidebar.title("Project Description")
 slt.sidebar.write("The Laptop Finder is a Python-based web app built with Streamlit that helps users discover the best laptops based on their specific requirements and preferences. Whether you're a student, a gamer, or a professional seeking a reliable workhorse, the Laptop Finder simplifies the process of finding the ideal laptop that meets your needs and budget.")
 # Creator Information
 slt.sidebar.title("About the Creator")
