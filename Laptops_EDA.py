@@ -34,7 +34,8 @@ if mt:
 else:
     #Designing Main Page
         slt.title("LAPTOP FINDER")
-        if slt.checkbox("Confused about which laptop to buy? Just feed in your requirements to our Laptop Finder and you will get best recommendations according to your specifications"):
+        slt.write("Confused about which laptop to buy? Just feed in your requirements to our Laptop Finder and you will get best recommendations according to your specifications"):
+        if slt.button("Get Started",key = '100'):
              brand = slt.selectbox("Select Preferred Brand",['Lenovo','HP','DELL','APPLE','RedmiBook','SAMSUNG','MSI','realme Book','ASUS','acer','Infinix'])
              x1 = data[data['name'].str.contains(brand)]
              p = x1.processor.unique()
