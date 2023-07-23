@@ -14,15 +14,14 @@ slt.sidebar.write("The Laptop Finder is a Python-based web app built with Stream
 # Creator Information
 slt.sidebar.title("About the Creator")
 slt.sidebar.write("**Created by**: Praneeth Vasa")
-slt.sidebar.write("**Email**     : praneethbalu178@gmail.com")
+
 
 # Social Media Profiles
 slt.sidebar.title("Connect with Me")
 slt.sidebar.markdown(
     """
     [LinkedIn](https://www.linkedin.com/in/praneeth-vasa-a42922262/)\n
-    [GitHub](https://github.com/PraneethVasa/)\n
-    [Instagram](https://www.instagram.com/praneeth_vasa_/)
+    
     """
 )
 mt = True
